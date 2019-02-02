@@ -9,8 +9,9 @@ public class Baekjoon_11726 {
         tile[1] =1;
         tile[2] = 2;
 
-        for(int i=1; i<=n; i++){
+        for(int i=3; i<=n; i++)
+            tile[i] = (tile[i-1]+tile[i-2])%10007;
 
-        }
+        System.out.println(tile[n]);
     }
 }

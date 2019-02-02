@@ -16,7 +16,7 @@ public class Baekjoon_2169 {
 
         for(int i=0; i<N; i++) {
             for (int j = 0; i < M; j++){
-                System.out.printf();
+                System.out.printf("");
             }
 
         }
