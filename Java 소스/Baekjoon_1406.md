@@ -65,6 +65,10 @@ public class Baekjoon_1406 {
 
 - stackA, stackB 두 개의 스택을 이용하여 문제해결
 - 커서를 기준으로 왼쪽은 stackA 오른쪽은 stackB (코드 상은 StackA = st, StackB = st_tmp)
+- L => 커서 왼쪽으로 이동시 stackA의 top -> stackB
+- D => 커서 왼쪽으로 이동시 stackB의 top -> stackA
+- P => 커서 왼쪽에 입력 stackA에 push
+- B => 커서의 왼쪽 삭제 stackA pop으로 삭제
 
 스택 활용
 
