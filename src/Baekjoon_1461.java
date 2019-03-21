@@ -17,7 +17,7 @@ public class Baekjoon_1461 {
         for (int i=1; i<= n; i++){
             book[i] = sc.nextInt();
         }
-        
+
         Arrays.sort(book);
         int k = Arrays.binarySearch(book, 0);
 
