@@ -10,7 +10,7 @@ public class HW_01 {
         int n = sc.nextInt();
         int[] num = new int[1001];
         num[1] = -1;
-        prime = new ArrayList<>();
+        prime = new ArrayList<>(); //소수
 
         //에라토스테네스의 체
         for (int i = 2; i <= 1000; i++) {
@@ -23,7 +23,7 @@ public class HW_01 {
                         break;
                     num[i * a] = -1;
                 }
-            } else {
+            } else { //소수가 아닐때
                 continue;
             }
         }
@@ -36,7 +36,7 @@ public class HW_01 {
 
     public static void Result(int k) {
         for (int a = 0; a < primeSize; a++) {
-            if(k<prime.get(a)) //소수가 입력된 정부 보다 클때
+            if(k<prime.get(a)) //소수가 입력된 수 보다 클때
                 break;
 
             for (int b = 0; b < primeSize; b++) {
@@ -46,7 +46,7 @@ public class HW_01 {
                 for (int c = 0; c < primeSize; c++) {
                     if(k<prime.get(c))
                         break;
-                    //3개의 소수의 합이 입력되 정수와 일치 할 때
+                    //3개의 소수의 합이 입력된 정수와 일치 할 때
                     if (k == (prime.get(a) + prime.get(b) + prime.get(c))) {
                         System.out.println(prime.get(a) +" "+ prime.get(b) +" "+ prime.get(c));
                         return ;
