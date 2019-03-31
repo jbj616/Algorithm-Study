@@ -6,5 +6,16 @@ public class Baekjoon_1991 {
 
         int n= sc.nextInt();
 
+        for (int i=0; i< n; i++){
+
+        }
+    }
+}
+class Tree{
+    char node;
+    Tree left, right;
+
+    Tree(char node){
+        this.node = node;
     }
 }
