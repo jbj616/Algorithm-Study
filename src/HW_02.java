@@ -14,7 +14,6 @@ public class HW_02 {
             System.out.println(Pillar(n, l, r));
         }
     }
-
     public static long Pillar(int n, int l, int r) {
         if (n == 0 || l == 0 || r == 0) {
             return 0;
