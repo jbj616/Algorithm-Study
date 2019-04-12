@@ -21,6 +21,7 @@ public class HW_02 {
         if (n == 1 && l == 1 && r == 1) {
             return 1;
         }
+        
         return Pillar(n - 1, l - 1, r) + Pillar(n - 1, l, r - 1) + (n-2)*Pillar(n - 1, l, r);
     }
 }
