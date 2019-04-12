@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8539042c-2fb2-46a8-8c7a-f1a59b02e5d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Baekjoon_1676.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Baekjoon_2252.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Baekjoon_9020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW_02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm-Study/META-INF/Algorithm-Study.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Baekjoon_1009.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Baekjoon_1009.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,59 +19,14 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/AlgorithmStudy$Baekjoon_2579.ic" NAME="Baekjoon_2579 Coverage Results" MODIFIED="1548493508354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="AlgorithmStudy" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PrimeNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Baekjoon_1520.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="28" selection-end-line="45" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Baekjoon_5569.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HW_01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Baekjoon_1051.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Baekjoon_15894.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Baekjoon_4485.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
+            <state relative-caret-position="795">
               <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="e#1746#1747#0" expanded="true" />
@@ -99,11 +58,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Baekjoon_1676.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-end-line="38" />
+              <caret line="34" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Baekjoon_9020.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HW_02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Baekjoon_1003.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Baekjoon_1009.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Baekjoon_2252.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -132,11 +139,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Baekjoon_2581.java" />
-        <option value="$PROJECT_DIR$/src/Baekjoon_1920.java" />
-        <option value="$PROJECT_DIR$/src/Baekjoon_1986.java" />
         <option value="$PROJECT_DIR$/src/Baekjoon_2445.java" />
-        <option value="$PROJECT_DIR$/src/Baekjoon_1009.java" />
         <option value="$PROJECT_DIR$/src/Baekjoon_9465.java" />
         <option value="$PROJECT_DIR$/src/Baekjoon_11057.java" />
         <option value="$PROJECT_DIR$/src/Baekjoon_1546.java" />
@@ -183,6 +186,10 @@
         <option value="$PROJECT_DIR$/src/Baekjoon_1991.java" />
         <option value="$PROJECT_DIR$/src/Baekjoon_4485.java" />
         <option value="$PROJECT_DIR$/src/Baekjoon_1676.java" />
+        <option value="$PROJECT_DIR$/src/Baekjoon_2252.java" />
+        <option value="$PROJECT_DIR$/src/Baekjoon_9020.java" />
+        <option value="$PROJECT_DIR$/src/Baekjoon_1009.java" />
+        <option value="$PROJECT_DIR$/src/HW_02.java" />
       </list>
     </option>
   </component>
@@ -193,8 +200,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="726" />
-    <option name="width" value="714" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -205,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,13 +227,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554117656996" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554371952346" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -250,23 +257,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Baekjoon_1676">
-    <configuration name="Baekjoon_1051" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Baekjoon_1051" />
-      <module name="Algorithm-Study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Baekjoon_1520" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Baekjoon_1520" />
-      <module name="Algorithm-Study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HW_02">
     <configuration name="Baekjoon_1676" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Baekjoon_1676" />
+      <module name="Algorithm-Study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Baekjoon_2252" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baekjoon_2252" />
       <module name="Algorithm-Study" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -279,8 +279,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Baekjoon_5569" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Baekjoon_5569" />
+    <configuration name="Baekjoon_9020" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Baekjoon_9020" />
+      <module name="Algorithm-Study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW_02" />
       <module name="Algorithm-Study" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW_02" />
+        <item itemvalue="Application.Baekjoon_9020" />
         <item itemvalue="Application.Baekjoon_1676" />
+        <item itemvalue="Application.Baekjoon_2252" />
         <item itemvalue="Application.Baekjoon_4485" />
-        <item itemvalue="Application.Baekjoon_5569" />
-        <item itemvalue="Application.Baekjoon_1520" />
-        <item itemvalue="Application.Baekjoon_1051" />
       </list>
     </recent_temporary>
   </component>
@@ -365,18 +372,22 @@
       <workItem from="1553598360708" duration="1532000" />
       <workItem from="1553749417208" duration="419000" />
       <workItem from="1553770414942" duration="3251000" />
-      <workItem from="1554116990162" duration="654000" />
+      <workItem from="1554116990162" duration="990000" />
+      <workItem from="1554369764910" duration="2040000" />
+      <workItem from="1554648550404" duration="3043000" />
+      <workItem from="1554791933329" duration="7430000" />
+      <workItem from="1554825730056" duration="2903000" />
+      <workItem from="1554870150068" duration="500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206158000" />
+    <option name="totallyTimeSpent" value="222410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912435" visible="true" weight="0.23247497" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912435" visible="true" weight="0.15593705" />
       <window_info id="Structure" order="1" sideWeight="0.50087565" side_tool="true" weight="0.1562753" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -387,7 +398,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32168674" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -404,48 +415,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.20243205" />
+      <window_info anchor="right" id="Run" order="9" weight="0.20243205" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Baekjoon_1546.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Baekjoon_2775.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Baekjoon_10808.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Baekjoon_3046.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Baekjoon_1181.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CodeForce_977A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -758,16 +734,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Baekjoon_1094.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Baekjoon_4485.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="795">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
             <element signature="e#1746#1747#0" expanded="true" />
@@ -779,7 +748,52 @@
     <entry file="file://$PROJECT_DIR$/src/Baekjoon_1676.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-end-line="38" />
+          <caret line="34" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Baekjoon_9020.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Baekjoon_1003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Baekjoon_1009.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Baekjoon_2252.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Baekjoon_1094.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HW_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
