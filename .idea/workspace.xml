@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8539042c-2fb2-46a8-8c7a-f1a59b02e5d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8539042c-2fb2-46a8-8c7a-f1a59b02e5d5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,15 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Baekjoon_15894.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Baekjoon_1991.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +63,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HW_02.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HW_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Baekjoon_2445.java" />
         <option value="$PROJECT_DIR$/src/Baekjoon_9465.java" />
         <option value="$PROJECT_DIR$/src/Baekjoon_11057.java" />
         <option value="$PROJECT_DIR$/src/Baekjoon_1546.java" />
@@ -185,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/Baekjoon_9020.java" />
         <option value="$PROJECT_DIR$/src/Baekjoon_1009.java" />
         <option value="$PROJECT_DIR$/src/HW_02.java" />
+        <option value="$PROJECT_DIR$/src/HW_2.java" />
       </list>
     </option>
   </component>
@@ -206,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,6 +226,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,16 +378,17 @@
       <workItem from="1554870150068" duration="500000" />
       <workItem from="1555054130882" duration="1665000" />
       <workItem from="1555823056010" duration="475000" />
+      <workItem from="1555834303042" duration="153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224550000" />
+    <option name="totallyTimeSpent" value="224703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49912435" visible="true" weight="0.1602289" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912435" visible="true" weight="0.16237482" />
       <window_info id="Structure" order="1" sideWeight="0.50087565" side_tool="true" weight="0.1562753" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,7 +399,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32168674" />
-      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -419,13 +423,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CodeForce_977A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Baekjoon_1113.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -791,6 +788,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HW_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
