@@ -11,11 +11,3 @@ public class Baekjoon_1991 {
         }
     }
 }
-class Tree{
-    char node;
-    Tree left, right;
-
-    Tree(char node){
-        this.node = node;
-    }
-}
