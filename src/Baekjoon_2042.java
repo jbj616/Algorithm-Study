@@ -32,8 +32,8 @@ public class Baekjoon_2042 {
                 long b = sc.nextLong();
 
                 update(0, N-1, 1, a, b-num[a]);
-                num[a-1] =b;
-                System.out.println("update : "+Arrays.toString(tree));
+                num[a] =b;
+                //System.out.println("update : "+Arrays.toString(tree));
             }
 
             if(tmp ==2){
@@ -41,8 +41,9 @@ public class Baekjoon_2042 {
                 int b = sc.nextInt()-1;
 
                 System.out.println(sum(0, N-1, 1, a, b));
-                System.out.println(Arrays.toString(tree));
+                //System.out.println(Arrays.toString(tree));
             }
+            //System.out.println("tree : "+Arrays.toString(tree));
         }
     }
 
