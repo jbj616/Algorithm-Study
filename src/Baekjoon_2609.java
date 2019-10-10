@@ -18,8 +18,8 @@ public class Baekjoon_2609 {
         }
 
         min = min/max_div;
-        max = max /max_div;//A = a  x GCD / B = b x GCD (a, b는 서로소)
-        min_mul = min * max * max_div; //LCM = a x b x GCD = A x B / GCD
+        max = max /max_div;//A = num  x GCD / B = b x GCD (num, b는 서로소)
+        min_mul = min * max * max_div; //LCM = num x b x GCD = A x B / GCD
 
         System.out.println(max_div);
         System.out.println(min_mul);
