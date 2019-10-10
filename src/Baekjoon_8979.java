@@ -31,6 +31,8 @@ public class Baekjoon_8979 {
         for (int i = result + 1; i < nations.size(); i++) {
             if (nations.get(result).equals(nations.get(i))) {
                 count++;
+            }else{
+                break;
             }
         }
 
