@@ -1,13 +1,12 @@
 package kakao;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 public class KakaoBlind2020_StringZipper {
 
     public static void main(String[] args) {
-        String[] test = {"aabbaccc", "ababcdcdababcdcd", "abcabcdede", "abcabcabcabcdededededede", "xababcdcdababcdcd", "ababababababab"};
+        String[] test = {"aabbaccc", "ababcdcdababcdcd", "abcabcdede", "abcabcabcabcdededededede", "xababcdcdababcdcd",
+            "aaaaaaaaaa"};
 
         for (String s : test) {
             System.out.println(zipper(s));
@@ -19,38 +18,44 @@ public class KakaoBlind2020_StringZipper {
         int answer = s.length();
 
         Stack<String> q = new Stack<>();
+        Stack<String> st = new Stack<>();
+        int num = -1;
 
-        for (int i = 1; i <= s.length()/2; i++) {
+        for (int i = 1; i <= s.length() / 2; i++) {
             boolean flag = false;
 
-            int count = 0;
             q.add(s.substring(0, i));
+            num = 1;
             int index = i;
             while (index + i <= s.length()) {
 
                 String tmp = s.substring(index, index + i);
-                System.out.println(q.peek()+" " + tmp);
+
                 if (q.peek().equals(tmp)) {
                     flag = true;
                     index += i;
+                    num++;
                 } else {
                     if (flag) {
-                        count++;
                         flag = false;
+                        if(num!=1)
+                            st.add(Integer.toString(num));
                     }
-
+                    num=1;
                     q.add(tmp);
                     index += i;
                 }
             }
 
             if (flag) {
-                count++;
+                st.add(Integer.toString(num));
             }
 
-
-            answer = Math.min(i * q.size() + count + (s.length() - index), answer);
-            System.out.println(q.toString()+ " " + s.substring(index, s.length())+ " " + (i * q.size() + count + (s.length() - index)));
+            int sum = 0;
+            while (!st.isEmpty()) {
+                sum += st.pop().length();
+            }
+            answer = Math.min(i * q.size() + sum + (s.length() - index), answer);
             q = new Stack<>();
 
 
