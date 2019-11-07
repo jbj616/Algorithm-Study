@@ -1,7 +1,6 @@
 package kakao;
 
 import java.util.Arrays;
-import sun.text.normalizer.Trie;
 
 public class KakaoBlind2020_lyrics {
 
@@ -13,22 +12,6 @@ public class KakaoBlind2020_lyrics {
 
     public static int[] solution(String[] words, String[] queries) {
 
-        Trie d = new Trie() {
-            @Override
-            protected int getSurrogateOffset(char c, char c1) {
-                return 0;
-            }
-
-            @Override
-            protected int getValue(int i) {
-                return 0;
-            }
-
-            @Override
-            protected int getInitialValue() {
-                return 0;
-            }
-        }
         int[] answer = new int[queries.length];
         Arrays.sort(words);
 
