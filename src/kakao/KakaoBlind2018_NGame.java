@@ -1,8 +1,5 @@
 package kakao;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.*;
-import org.junit.Test;
 
 public class KakaoBlind2018_NGame {
 
