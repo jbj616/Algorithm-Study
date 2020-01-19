@@ -7,30 +7,29 @@ import java.util.Scanner;
 public class HW03 {
 
     public static void main(String[] args) {
-        try {
-            Scanner sc = new Scanner(new File("/Users/byeongjaejung/Desktop/numbers.txt"));
-            int T = sc.nextInt();    // # of test case
 
-            long st = System.currentTimeMillis();
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();    // # of test case
 
-            for (int t = 0; t < T; t++) {
+        long st = System.currentTimeMillis();
 
-                int n = sc.nextInt();
-                int[] card = new int[n + 1];
-                for (int i = 1; i <= n; i++) {
-                    card[i] = sc.nextInt();
-                }
+        for (int t = 0; t < T; t++) {
 
-                System.out.println(solve(n, card));
+            int n = sc.nextInt();
+            int[] card = new int[n + 1];
+            for (int i = 1; i <= n; i++) {
+                card[i] = sc.nextInt();
             }
 
-            long et = System.currentTimeMillis();
-            System.out.println((et - st) + " ms");
 
-            sc.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println(solve(n, card));
         }
+
+        long et = System.currentTimeMillis();
+        System.out.println((et - st) + " ms");
+
+        sc.close();
+
     }
 
     public static int solve(int n, int[] card) {
@@ -56,6 +55,14 @@ public class HW03 {
             }
             a = 1;
             b = x + 1;
+        }
+
+        System.out.println();
+        for (int i=1; i<=n; i++){
+            for (int j=1; j<=n; j++){
+                System.out.print(dp[i][j]+"\t");
+            }
+            System.out.println();
         }
         return dp[1][n];
     }
